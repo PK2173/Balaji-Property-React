@@ -1,0 +1,76 @@
+.footercontainer {
+  background-image: url("../../assets/bg2.svg");
+  background-color: #cccccc;
+  padding: 50px;
+}
+
+.informcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.optioncontainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 55%;
+}
+
+ul {
+  list-style: none;
+  font-size: 16px;
+  font-family: cursive;
+  padding: 5px;
+  font-weight: 100;
+  white-space: 2px;
+}
+
+.informcontainer h3 {
+  font-size: 24px;
+  font-family: cursive;
+  word-spacing: 2px;
+  padding: 10px;
+  font-weight: 200;
+}
+
+.informcontainer li {
+  padding: 2px;
+}
+
+.quickenquiryinput input {
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.quickenquiryinput select {
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.quickenquiryinput textarea {
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.quickenquiryinput .button button {
+  width: 80%;
+  padding: 7px;
+  font-size: 15px;
+  background-color: #7c7c7c88;
+  font-style: italic;
+}
+
+.quickenquiryinput .button button:hover {
+  background-color: #3d0a05;
+  color: white;
+}
+
+.quickenquiry {
+  width: 40%;
+  float: right;
+}
